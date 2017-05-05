@@ -46,7 +46,7 @@ bool InlineAssemblyStack::parse(
 )
 {
 	m_parserResult = make_shared<Block>();
-	Parser parser(m_errors);
+	Parser parser(m_errors, true);
 	auto result = parser.parse(_scanner);
 	if (!result)
 		return false;
