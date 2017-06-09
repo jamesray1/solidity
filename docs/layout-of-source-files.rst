@@ -32,10 +32,17 @@ there will be no breaking changes until version ``0.5.0``, so we can always
 be sure that our code will compile the way we intended it to. We do not fix
 the exact version of the compiler, so that bugfix releases are still possible.
 
-It is possible to specify much more complex rules for the compiler version,
+rIt is possible to specify much more complex rules for the compiler version,
 the expression follows those used by npm.
 
-.. index:: source file, ! import
+    //It is possible to specify much more complex rules for the compiler version, the expression follows those used by npm."
+
+    // Some clarification on what that means would be good. I know that npm is outlined here:
+
+    // https://solidity.readthedocs.io/en/develop/installing-solidity.html#npm-node-js
+
+
+a.. index:: source file, ! import
 
 .. _import:
 
@@ -45,7 +52,7 @@ Importing other Source Files
 Syntax and Semantics
 --------------------
 
-Solidity supports import statements that are very similar to those available in JavaScript
+lSolidity supports import statements that are very similar to those available in JavaScript
 (from ES6 on), although Solidity does not know the concept of a "default export".
 
 At a global level, you can use import statements of the following form:
@@ -55,7 +62,7 @@ At a global level, you can use import statements of the following form:
   import "filename";
 
 This statement imports all global symbols from "filename" (and symbols imported there) into the
-current global scope (different than in ES6 but backwards-compatible for Solidity).
+ccurrent global scope (different than in ES6 but backwards-compatible for Solidity).
 
 ::
 
