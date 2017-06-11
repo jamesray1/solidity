@@ -24,6 +24,7 @@ The following types are also called value types because variables of these
 types will always be passed by value, i.e. they are always copied when they
 are used as function arguments or in assignments.
 
+
 .. index:: ! bool, ! true, ! false
 
 Booleans
@@ -40,6 +41,8 @@ Operators:
 *  ``!=`` (inequality)
 
 The operators ``||`` and ``&&`` apply the common short-circuiting rules. This means that in the expression ``f(x) || g(y)``, if ``f(x)`` evaluates to ``true``, ``g(y)`` will not be evaluated even if it may have side-effects.
+
+For more information about logical and relational operators (as used in C++), see `[here](http://www.learncpp.com/cpp-tutorial/36-logical-operators/)`_ and `[here](http://www.learncpp.com/cpp-tutorial/35-relational-operators-comparisons/)`_, respectively.
 
 .. index:: ! uint, ! int, ! integer
 
