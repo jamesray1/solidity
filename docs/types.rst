@@ -291,7 +291,7 @@ Enums
 
 Enums are one way to create a user-defined type in Solidity. They are explicitly convertible
 to and from all integer types but implicit conversion is not allowed.  The explicit conversions
-check the value ranges at runtime and a failure causes an exception.  Enums needs at least one member.
+check the value ranges at runtime and a failure causes an exception.  Enums need at least one member.
 
 ::
 
