@@ -421,7 +421,7 @@ A ``require``-style exception is generated in the following situations:
 #. If you create a contract using the ``new`` keyword but the contract creation does not finish properly (see above for the definition of "not finish properly").
 #. If you perform an external function call targeting a contract that contains no code.
 #. If your contract receives Ether via a public function without ``payable`` modifier (including the constructor and the fallback function).
-#. If your contract receives Ether via a public getter function.
+#. If your contract receives Ether via a public _`[getter](https://solidity.readthedocs.io/en/develop/contracts.html#getter-functions)`_ function.
 #. If a ``.transfer()`` fails.
 
 Internally, Solidity performs a revert operation (instruction ``0xfd``) for a ``require``-style exception and executes an invalid operation
