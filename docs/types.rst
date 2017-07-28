@@ -82,6 +82,7 @@ Address
 Operators:
 
 * ``<=``, ``<``, ``==``, ``!=``, ``>=`` and ``>``
+.. _L:
 
 Members of Addresses
 ^^^^^^^^^^^^^^^^^^^^
